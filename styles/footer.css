@@ -1,0 +1,33 @@
+.footer{
+    height : 170px;
+}
+.grid-footer{
+    padding-top : 30px;
+    display : grid;
+    grid-auto-columns : 1fr;
+    grid-template-areas : "Temp Author Adress Contact Temp2 Copyright";
+}
+.footer-column{
+    font-size : 13.5px;
+    padding : 0;
+    & li{
+        list-style-type : none;
+    }
+} 
+.footer-column:first-child{
+    grid-area : Author;
+}
+.footer-column:nth-child(2){
+    grid-area : Adress;
+}
+.footer-column:nth-child(3){
+    grid-area : Contact;
+}
+.footer-column:nth-child(4){
+    grid-area : Copyright;
+}
+.item-title{
+    font-size : 15px;
+    color : #8e8e8e;
+    margin-bottom : 5px;
+}

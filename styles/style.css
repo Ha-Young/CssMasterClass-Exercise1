@@ -1,0 +1,25 @@
+:root {
+  --colorOne: #d5ecf4;
+  --colorTwo: #e5efd9;
+  --colorThree: #fcf8c0;
+  --colorFour: #ebebeb;
+  --colorFive: #f4c5c3;
+  --colorSix: #e5efd8;
+  --colorSeven: #fcf8c0;
+  --colorEight: #b9b9b9;
+}
+body{
+  margin : 10px;
+}
+
+.grid-three{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  grid-gap : 10px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600"); 
+@import url(../styles/header.css);
+@import url(../styles/main.css);
+@import url(../styles/footer.css);

@@ -1,0 +1,43 @@
+
+
+:root {
+  --colorOne: #d5ecf4;
+  --colorTwo: #e5efd9;
+  --colorThree: #fcf8c0;
+  --colorFour: #ebebeb;
+  --colorFive: #f4c5c3;
+  --colorSix: #e5efd8;
+  --colorSeven: #fcf8c0;
+}
+
+.header{
+  display: flex;
+  height : 200px
+}
+
+.header h1{
+    font-size : 40px;
+    margin:0;
+    padding-top : 15px;
+    padding-left : 5px;
+  }
+
+.header-left{
+  width : 30%;
+}
+
+.header-right{
+  width : 70%;
+}
+
+.header-column span{
+    color : ;
+  }
+
+.grid-three{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

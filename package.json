@@ -1,0 +1,26 @@
+{
+  "name": "exercices1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "Hayoung",
+  "license": "ISC",
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "main.css": "^1.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "styles": "^0.2.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}

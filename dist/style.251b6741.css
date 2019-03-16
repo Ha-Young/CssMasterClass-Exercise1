@@ -1,0 +1,152 @@
+.header{
+  display : flex;
+  height : 200px;
+}
+
+.header-left{
+  width : 30%
+}
+
+.header-left h1{
+    font-size : 40px;
+    margin : 0;
+    padding-top : 15px;
+    padding-left : 5px;
+  }
+
+.header-right{
+  width : 70%
+}
+
+.header-right .header-columns{
+    padding-top : 10px;
+    padding-left : 2%;
+    padding-right : 20%;
+  }
+
+.header-column span{
+    display : block;
+    color : #8e8e8e;
+    text-decoration : underline;
+    margin-bottom : 20px;
+  }
+
+.header-column .column-item{
+    list-style-type : none;
+  }
+
+
+    .main-view .grid-item:first-child{
+        background-color : var(--colorOne);
+        grid-row : span 2;
+    }
+.main-view .grid-item:nth-child(2){
+        background-color : var(--colorEight);
+        grid-column : span 2;
+        grid-row : span 2;
+    }
+.main-view .grid-item:nth-child(3){
+        background-color : var(--colorTwo);
+    }
+.main-view .grid-item:nth-child(4){
+        background-color : var(--colorEight);
+        grid-row : span 2;
+    }
+.main-view .grid-item:nth-child(5){
+        background-color : var(--colorThree);
+    }
+.main-view .grid-item:nth-child(6){
+        background-color : var(--colorFour);
+    }
+.main-view .grid-item:nth-child(7){
+        background-color : var(--colorFour);
+    }
+.main-view .grid-item:nth-child(8){
+        background-color : var(--colorFive);
+        grid-row : span 2;
+        grid-column : span 2;
+    }
+.main-view .grid-item:nth-child(9){
+        background-color : var(--colorEight);
+        grid-row : span 2;
+    }
+.main-view .grid-item:nth-child(10){
+        background-color : var(--colorEight);
+        grid-row : span 2;
+        grid-column : span 2;
+    }
+.main-view .grid-item:nth-child(11){
+        background-color : var(--colorEight);
+    }
+.main-view .grid-item:nth-child(12){
+        background-color : var(--colorOne);
+    }
+.main-view .grid-item:nth-child(13){
+        background-color : var(--colorTwo);
+        grid-row : span 2;
+        grid-column : span 2;
+    }
+.main-view .grid-item:nth-child(14){
+        background-color : var(--colorEight);
+    }
+.main-view .grid-item:nth-child(15){
+        background-color : var(--colorThree);
+    }
+.footer{
+    height : 170px;
+}
+.grid-footer{
+    padding-top : 30px;
+    display : grid;
+    grid-auto-columns : 1fr;
+    grid-template-areas : "Temp Author Adress Contact Temp2 Copyright";
+}
+.footer-column{
+    font-size : 13.5px;
+    padding : 0
+}
+.footer-column li{
+        list-style-type : none;
+    } 
+.footer-column:first-child{
+    grid-area : Author;
+}
+.footer-column:nth-child(2){
+    grid-area : Adress;
+}
+.footer-column:nth-child(3){
+    grid-area : Contact;
+}
+.footer-column:nth-child(4){
+    grid-area : Copyright;
+}
+.item-title{
+    font-size : 15px;
+    color : #8e8e8e;
+    margin-bottom : 5px;
+}
+:root {
+  --colorOne: #d5ecf4;
+  --colorTwo: #e5efd9;
+  --colorThree: #fcf8c0;
+  --colorFour: #ebebeb;
+  --colorFive: #f4c5c3;
+  --colorSix: #e5efd8;
+  --colorSeven: #fcf8c0;
+  --colorEight: #b9b9b9;
+}
+body{
+  margin : 10px;
+}
+
+.grid-three{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  grid-gap : 10px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+
+/*# sourceMappingURL=/style.251b6741.css.map */
