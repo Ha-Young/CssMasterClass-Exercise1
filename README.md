@@ -1,4 +1,4 @@
 # CssMasterClass-Exercise1
 
 
-![capturePage](./captureImage.png)
+![capturePage](./CaptureImage.png)
