@@ -1,10 +1,15 @@
 .main-view{
+    & .grid-item{
+        background-size: cover;
+        background-position: center center;
+    }
+
     & .grid-item:first-child{
         background-color : var(--colorOne);
         grid-row : span 2;
     }
     & .grid-item:nth-child(2){
-        background-color : var(--colorEight);
+        background-image: url("http://www.contemporist.com/wp-content/uploads/2017/04/modern-table-top-bookshelf-170417-1157-01.jpg");
         grid-column : span 2;
         grid-row : span 2;
     }
@@ -12,7 +17,7 @@
         background-color : var(--colorTwo);
     }
     & .grid-item:nth-child(4){
-        background-color : var(--colorEight);
+        background-image: url("https://i-h2.pinimg.com/564x/a1/53/d7/a153d735a4f844782f1036c8ec761fc4.jpg");
         grid-row : span 2;
     }
     & .grid-item:nth-child(5){
@@ -30,16 +35,16 @@
         grid-column : span 2;
     }
     & .grid-item:nth-child(9){
-        background-color : var(--colorEight);
+        background-image: url("https://i-h2.pinimg.com/564x/55/a3/b0/55a3b0840bb609b1febf8ad06ad42df7.jpg");
         grid-row : span 2;
     }
     & .grid-item:nth-child(10){
-        background-color : var(--colorEight);
+        background-image: url("https://i-h2.pinimg.com/564x/b5/ff/80/b5ff809715eb54a9ee4bcd2225357754.jpg");
         grid-row : span 2;
         grid-column : span 2;
     }
     & .grid-item:nth-child(11){
-        background-color : var(--colorEight);
+        background-image: url("https://i-h2.pinimg.com/564x/96/fe/34/96fe34112021347a32ec2b34c3304083.jpg");
     }
     & .grid-item:nth-child(12){
         background-color : var(--colorOne);
@@ -50,7 +55,7 @@
         grid-column : span 2;
     }
     & .grid-item:nth-child(14){
-        background-color : var(--colorEight);
+        background-image: url("https://i-h2.pinimg.com/564x/f7/2b/9c/f72b9ce44f6e5070e29208ee54cac985.jpg?b=t");
     }
     & .grid-item:nth-child(15){
         background-color : var(--colorThree);
